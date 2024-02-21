@@ -34,3 +34,9 @@ Csrc/main/java/com/example/demo/handlers/GlobalExceptionHandler.java,7/f/7f67cc
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+s
+Csrc/test/java/com/example/demo/DemoClientsRestApplicationTests.java,0/5/0580b17217b7008439ee10e113675c0682785d27
+j
+:src/test/java/com/example/demo/ClienteControllerTests.java,c/9/c9dd384ee13551fe00ec81c318d94ea5010c8797
+g
+7src/test/java/com/example/demo/ClienteServiceTests.java,e/3/e3479d398489144e721cb332ed429cd66d4b865f

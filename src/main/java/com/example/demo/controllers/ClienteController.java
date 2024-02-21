@@ -31,13 +31,16 @@ public class ClienteController {
     @GetMapping(value = "/clientes", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> list() {
         List<ClienteResponse> body = clienteService.list();
+        if(body.isEmpty()){
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+        }
         return ResponseEntity.ok(body);
     }
 
     @PostMapping(value = "/clientes", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> create(@Valid @RequestBody ClienteRequest cliente) {
         clienteService.create(cliente);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
     @PutMapping(value = "/clientes/{id}", produces = MediaType.APPLICATION_JSON_VALUE)

@@ -2,13 +2,13 @@
 H
 java:S1452 "&Remove usage of generic wildcard type.(Æùïıÿÿÿÿ8çÙ­ËÜ1
 H
-java:S1452&"&Remove usage of generic wildcard type.(‚í úÿÿÿÿ8éÙ­ËÜ1
+java:S1452)"&Remove usage of generic wildcard type.(‚í úÿÿÿÿ8éÙ­ËÜ1
 C
-java:S1452,"&Remove usage of generic wildcard type.(áù“8ëÙ­ËÜ1
+java:S1452/"&Remove usage of generic wildcard type.(áù“8ëÙ­ËÜ1
 `
-java:S1128">Remove this unused import 'com.example.demo.entities.Cliente'.(ƒ³À˜üÿÿÿÿ8íÙ­ËÜ1
+java:S1128">Remove this unused import 'com.example.demo.entities.Cliente'.(ƒ³À˜üÿÿÿÿ8Îú¨ÎÜ1
 e
 java:S1128
-"HRemove this unused import 'org.springframework.data.domain.PageRequest'.(ºêâÚ8íÙ­ËÜ1
+"HRemove this unused import 'org.springframework.data.domain.PageRequest'.(ºêâÚ8Îú¨ÎÜ1
 g
-java:S1128"ERemove this unused import 'org.springframework.data.domain.Pageable'.(‡ë‚Öıÿÿÿÿ8íÙ­ËÜ1
+java:S1128"ERemove this unused import 'org.springframework.data.domain.Pageable'.(‡ë‚Öıÿÿÿÿ8Îú¨ÎÜ1
