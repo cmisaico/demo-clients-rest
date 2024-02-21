@@ -3,8 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-_
-/src/main/java/com/example/demo/dto/Cliente.java,2/0/20c501bc93f85275b8add17d54979c2ac27afb55
 d
 4src/main/java/com/example/demo/entities/Cliente.java,6/9/698a95ce1dbf18198549bb59dbba9de67ef22a92
 ?
@@ -27,15 +25,11 @@ f
 6src/main/java/com/example/demo/helpers/FormatUtil.java,9/4/94bbd89882a5d6fe40a9c58379ecd22e2991e098
 {
 Ksrc/main/java/com/example/demo/exceptions/RecursoNoEncontradoException.java,8/5/85ac24c9861bc445925de8259d5a85c1e7a4d51e
-m
-=src/main/java/com/example/demo/handlers/ExceptionHandler.java,f/3/f34481348eedd2b3c81149ecdd8a43715013b8b4
 s
 Csrc/main/java/com/example/demo/handlers/GlobalExceptionHandler.java,7/f/7f67cca330d0e603001f7bd04630751e043f10cf
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-s
-Csrc/test/java/com/example/demo/DemoClientsRestApplicationTests.java,0/5/0580b17217b7008439ee10e113675c0682785d27
 j
 :src/test/java/com/example/demo/ClienteControllerTests.java,c/9/c9dd384ee13551fe00ec81c318d94ea5010c8797
 g

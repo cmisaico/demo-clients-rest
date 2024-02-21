@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.ClienteControllerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-21T15:05:28" hostname="cmisaico-Prestige-14Evo-A11M" time="0.262">
+  <properties/>
+  <testcase name="testGetAllClientes()" classname="com.example.demo.ClienteControllerTests" time="0.179"/>
+  <testcase name="testCreateCliente()" classname="com.example.demo.ClienteControllerTests" time="0.072"/>
+  <testcase name="testUpdateCliente()" classname="com.example.demo.ClienteControllerTests" time="0.009"/>
+  <system-out><![CDATA[10:05:23.333 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ClienteControllerTests]: ClienteControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:05:23.489 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoClientsRestApplication for test class com.example.demo.ClienteControllerTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.8)
+
+2024-02-21T10:05:23.899-05:00  INFO 95534 --- [    Test worker] c.example.demo.ClienteControllerTests    : Starting ClienteControllerTests using Java 17.0.9 with PID 95534 (started by cmisaico in /home/cmisaico/Documents/Proyectos/demo-clients-rest)
+2024-02-21T10:05:23.901-05:00  INFO 95534 --- [    Test worker] c.example.demo.ClienteControllerTests    : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T10:05:24.602-05:00  INFO 95534 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21T10:05:24.656-05:00  INFO 95534 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-02-21T10:05:25.827-05:00  INFO 95534 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21T10:05:25.906-05:00  INFO 95534 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-21T10:05:25.909-05:00  INFO 95534 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-21T10:05:26.056-05:00  INFO 95534 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21T10:05:26.085-05:00  INFO 95534 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21T10:05:26.433-05:00  INFO 95534 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-02-21T10:05:26.435-05:00  INFO 95534 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21T10:05:26.468-05:00  WARN 95534 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-21T10:05:27.211-05:00  INFO 95534 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-21T10:05:27.285-05:00  INFO 95534 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T10:05:27.480-05:00  WARN 95534 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21T10:05:27.974-05:00  INFO 95534 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-02-21T10:05:28.013-05:00  INFO 95534 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-02-21T10:05:28.014-05:00  INFO 95534 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-21T10:05:28.015-05:00  INFO 95534 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-02-21T10:05:28.034-05:00  INFO 95534 --- [    Test worker] c.example.demo.ClienteControllerTests    : Started ClienteControllerTests in 4.386 seconds (process running for 5.917)
+]]></system-out>
+  <system-err><![CDATA[[2024.02.21 10:05:23] (Coverage): Error during class instrumentation: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem: java.lang.RuntimeException: java.io.IOException: Class org/apache/logging/log4j/core/config/composite/CompositeConfiguration not found
+[2024.02.21 10:05:27] (Coverage): Error during class instrumentation: org.springframework.core.ReactiveAdapterRegistry$ReactorAdapter: java.lang.RuntimeException: java.io.IOException: Class reactor/core/publisher/Flux not found
+]]></system-err>
+</testsuite>
