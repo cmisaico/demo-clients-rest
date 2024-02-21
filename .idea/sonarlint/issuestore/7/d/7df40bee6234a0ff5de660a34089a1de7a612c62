@@ -7,6 +7,8 @@ C
 java:S1452/"&Remove usage of generic wildcard type.(áù“8ëÙ­ËÜ1
 `
 java:S1128">Remove this unused import 'com.example.demo.entities.Cliente'.(ƒ³À˜üÿÿÿÿ8Îú¨ÎÜ1
+w
+java:S1128"URemove this unused import 'com.example.demo.exceptions.RecursoNoEncontradoException'.(®Êü½úÿÿÿÿ8ğõ™âÜ1
 e
 java:S1128
 "HRemove this unused import 'org.springframework.data.domain.PageRequest'.(ºêâÚ8Îú¨ÎÜ1

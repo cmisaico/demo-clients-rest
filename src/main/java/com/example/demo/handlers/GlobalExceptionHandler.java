@@ -1,5 +1,6 @@
 package com.example.demo.handlers;
 
+import com.example.demo.exceptions.RecursoNoEncontradoException;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
@@ -19,6 +20,14 @@ import java.util.Map;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(RecursoNoEncontradoException.class)
+    protected ResponseEntity<Object> handleMethodArgumentNotValid(RecursoNoEncontradoException ex) {
+        Map<String, String> errorMap = new HashMap<>();
+        errorMap.put("mensaje", ex.getMessage());
+        return new ResponseEntity<>(errorMap, new HttpHeaders(), HttpStatus.BAD_REQUEST);
+    }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(MethodArgumentNotValidException.class)

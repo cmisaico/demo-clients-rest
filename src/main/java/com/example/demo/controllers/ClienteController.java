@@ -45,11 +45,7 @@ public class ClienteController {
 
     @PutMapping(value = "/clientes/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> update(@PathVariable String id, @Valid @RequestBody ClienteRequest cliente) {
-        try {
             clienteService.update(id, cliente);
             return ResponseEntity.status(HttpStatus.CREATED).build();
-        } catch (RecursoNoEncontradoException e) {
-            return ResponseEntity.notFound().build();
-        }
     }
 }
